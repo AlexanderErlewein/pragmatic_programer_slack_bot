@@ -1,0 +1,20 @@
+{
+  "name": "pragmatic-programmer-slack-bot",
+  "version": "1.0.0",
+  "description": "Daily Pragmatic Programmer tips for Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.17.1",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["slack", "bot", "pragmatic-programmer", "daily-tips"],
+  "author": "Your Name",
+  "license": "MIT"
+}
